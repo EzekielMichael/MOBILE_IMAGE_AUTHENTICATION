@@ -1,0 +1,116 @@
+# ============ Flutter / Dart ============
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ============ Android ============
+android/.gradle/
+android/captures/
+android/gradle/wrapper/gradle-wrapper.jar
+android/local.properties
+android/key.properties
+android/app/google-services.json          # ⚠️ contains API keys
+android/app/release/
+android/app/debug/
+android/.idea/
+android/app/*.jks
+android/app/*.keystore
+*.jks
+*.keystore
+
+# ============ iOS ============
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GoogleService-Info.plist       # ⚠️ contains API keys
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
+
+# ============ Web ============
+web/firebase-messaging-sw.js
+
+# ============ Environment / Secrets ============
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+
+# ============ Editors ============
+.vscode/
+.vscode/launch.json
+.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# ============ OS ============
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============ Logs ============
+*.log
+logs/
+
+# ============ Coverage ============
+coverage/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
